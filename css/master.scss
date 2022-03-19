@@ -1,7 +1,10 @@
-$firstcolor = #451E41;
+$firstcolor : #451E41;
 
-html{
+html,body{
+  margin:0rem;
+  padding:0rem;
   font-family: 'Poppins', sans-serif;
   font-family: 'Sorts Mill Goudy', serif;
   background-color: $firstcolor;
+  color:white;
 }
