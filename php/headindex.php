@@ -1,11 +1,11 @@
 <body>
 <head>
 <nav>
-<img id="logo" src="svg/logo.svg" alt="logo">
+<img id="logo" src="../svg/logo.svg" alt="logo">
 </nav>
 
 <div class="Welcome">
-<img src="img/headpic.jpg" alt="women enjoy massaging"
+<img src="../img/headpic.jpg" alt="women enjoy massaging"
 <h1>Välkommen!</h1>
 <p>Uppleva Åmåls bästa thaimassage!<br>
 Känslor som du aldrig har haft innan.</p>
@@ -20,7 +20,7 @@ Känslor som du aldrig har haft innan.</p>
     <li><a href="">GALLERI</a></li>
     <li><a href="">KONTAKT</a></li>
   </ul>
-<img src="svg/language.svg" alt="languages">
-<img src="svg/thaidecor.svg" alt="decoration">
+<img src="../svg/language.svg" alt="languages">
+<img src="../svg/thaidecor.svg" alt="decoration">
 </nav>
 </head>
