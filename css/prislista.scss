@@ -36,21 +36,42 @@ body {
 .pris{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "jp  kp"
+    "line  line"
+    "lp  zp"
+    "line  line"
+    "xp  vp"
+    "line  line"
+    "bp  np"
+    "line  line";
   gap: 50px;
   width: 60%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  text-align: center;
 
   .move {
     text-align: left;
   }
 
-  p {
-    font-size: 1.7rem;
-    text-align: center;
-    }
+  line {
+    z-index: 20;
+    height: 3.5px;
+    width: 180%;
+    border-radius: 3px;
+    background-color: white;
+    opacity: 12%;
+  }
+
+  noline {
+    z-index: 20;
+    height: 3.5px;
+    width: 100%;
+  }
+
 }
 
 .line {
@@ -91,13 +112,16 @@ body {
 .nummbercontainer {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 45%;
+  margin-right: 27.5%;
+  margin-left: 27.5%;
 
 
   #nummber {
     font-size: 2rem;
     margin-top: -7rem;
     z-index: 3;
+    width: 100%;
   }
 
 }

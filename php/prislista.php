@@ -18,14 +18,25 @@
 
 <div class="pris">
 
-    <p class="move">Helkroppsmassage</p>
-      <p>400 kr/60 min</p>
-    <p class="move">Fotmassage<br>(Reflexology)</p>
-      <p>300 kr/45 min</p>
-    <p class="move">Oljemassage<br>(Bara ryggen)</p>
-      <p>300 kr/45 min</p>
-    <p class="move">Ansiktsbehandling</p>
-      <p>300 kr/45 min</p>
+    <jp class="move" style="font-size: 1.7rem;">Helkroppsmassage</jp>
+      <kp style="font-size: 1.7rem;">400 kr/60 min</kp>
+      <line></line><noline></noline>
+
+
+    <lp class="move" style="font-size: 1.7rem;">Fotmassage<br>(Reflexology)</lp>
+      <zp style="font-size: 1.7rem;">300 kr/45 min</zp>
+      <line></line><noline></noline>
+
+    <xp class="move" style="font-size: 1.7rem;">Oljemassage<br>(Bara ryggen)</xp>
+      <vp style="font-size: 1.7rem;">300 kr/45 min</vp>
+      <line></line><noline></noline>
+
+    <bp class="move" style="font-size: 1.7rem;">Ansiktsbehandling</bp>
+      <np style="font-size: 1.7rem;">300 kr/45 min</np>
+      <line></line><noline></noline>
+
+      <noline></noline><mp>**Kvitto finns</mp>
+
 
   </div>
 
